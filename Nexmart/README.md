@@ -182,19 +182,4 @@ These are accessible from the vendor dashboard and admin panel via buttons.
 
 ---
 
-## ⚠️ Troubleshooting
 
-**MongoDB not connecting?**
-- Make sure MongoDB service is running
-- Check MONGO_URI in backend/.env
-
-**npm install fails?**
-- Make sure Node.js v16+ is installed
-- Try: `npm install --legacy-peer-deps`
-
-**Port already in use?**
-- Kill the process or change PORT in .env
-
----
-
-Built with ❤️ for Project 16 — Multi-Vendor Marketplace
